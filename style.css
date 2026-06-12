@@ -467,6 +467,21 @@ html {
   color: var(--accent-primary);
 }
 
+.btn-premium {
+  background: rgba(57, 255, 20, 0.08);
+  color: var(--text-primary);
+  border: 1px solid rgba(57, 255, 20, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.btn-premium:hover {
+  background: rgba(57, 255, 20, 0.15);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(57, 255, 20, 0.2);
+}
+
 /* --------------------------------------------------------------------------
    11. HERO SECTION
    -------------------------------------------------------------------------- */
@@ -600,11 +615,12 @@ html {
   margin-bottom: 20px;
 }
 
-/* Hero tagline */
-.hero-tagline {
-  margin-top: 40px;
+/* Hero tagline centered */
+.hero-tagline-centered {
+  grid-column: 1 / -1;
+  margin-top: 20px;
   padding: 24px 32px;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-style: italic;
   font-weight: 500;
   color: var(--text-primary);
@@ -614,9 +630,13 @@ html {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border-default);
   border-radius: var(--radius-lg);
-  max-width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.6;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
 }
 
 /* ── HERO VISUAL: Square Profile Card ── */
