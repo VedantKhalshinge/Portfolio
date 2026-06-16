@@ -1,8 +1,12 @@
-/* ==========================================
+/* ==========================================================================
    VEDANT KHALSHINGE — PORTFOLIO SCRIPTS
-   Premium Interactions & Animations
-   Neon Green Theme
-   ========================================== */
+   Copyright (c) 2026 Vedant Khalshinge. All Rights Reserved.
+   
+   This codebase, design, content, and all associated assets 
+   are the exclusive property of Vedant Khalshinge.
+   Unauthorized copying, cloning, modification, reproduction, 
+   or distribution of this project is strictly prohibited.
+   ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
 
