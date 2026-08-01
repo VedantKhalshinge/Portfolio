@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                const offsetTop = target.offsetTop - 110;
+                const offsetTop = target.offsetTop;
                 window.scrollTo({
                     top: offsetTop,
                     behavior: 'smooth'
